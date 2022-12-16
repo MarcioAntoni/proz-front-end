@@ -19,6 +19,10 @@ const arrayPostagens = [
   },
 ]
 
+
+//Criando do elementos no DOM
+
+
 for (let i = 0; i < arrayPostagens.length; i++) {
   console.log(arrayPostagens[i]);
   
