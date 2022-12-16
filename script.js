@@ -41,5 +41,5 @@ console.log(listasDeRedes);
 const linksNavegacao = document.querySelectorAll("footer .lista_redes li a");//- Os links da navegação (só os links, não os elementos de lista)
 console.log(linksNavegacao);
 
-autorEData = document.querySelectorAll(".post > p");
+autorEData = document.querySelectorAll(".post .post-autor, .post-data");
 console.log(autorEData);
