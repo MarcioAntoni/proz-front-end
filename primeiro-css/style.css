@@ -1,0 +1,105 @@
+
+html{
+    margin: 0px;
+    padding: 0px;   
+}
+
+body{
+    font-style: italic;
+    background: rgb(193, 196, 194);
+    
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    padding: 35px;
+    text-align: center;
+    background-color: rgba(80, 75, 75, 0.507);
+
+}
+#tituloH1{
+    font-style: italic;
+    font-size: 35px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+.menu{
+    display: flex;
+    text-align: center;
+    align-items: center; 
+
+
+}
+.menu li{
+    text-align: center;
+    list-style: none;
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 12ms;
+}
+a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+
+}
+
+/*Istilização do conteudo*/
+
+.conteudo{
+    display: block;
+    
+
+}
+#sobre{
+    text-transform: capitalize;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.tituloH2{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 30px;
+
+}
+p{
+    font-size: 20px;
+    color: black;
+}
+
+img{
+    border-radius: 20px;
+    background-color: rgba(80, 75, 75, 0.507);
+    
+}
+
+/*Istilização do rodape.*/
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(80, 75, 75, 0.507);
+    padding: 50px;
+
+}
+a{
+    font-size: 20px;
+}
+#rodape{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
