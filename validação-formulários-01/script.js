@@ -44,7 +44,7 @@ emailInput.addEventListener("change", (e)=>{
         emailInput.classList.add("error")
         emailInput.classList.remove("correct")
         emailHelper.classList.add("visible")
-        emailHelper.innerText = "Email invalida"
+        emailHelper.innerText = "Email invalido"
 
     }
 
